@@ -1,5 +1,80 @@
 {
   "better-comments.highlightPlainText": true,
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+     {
+      "tag": "refactor",
+      "color": "#7EB08A",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "-",
+      "color": "#BA8EAF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#FF819F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "?",
+      "color": "#7EA4B0",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#D2B48C",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "*",
+      "color": "#3D7830",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "fixme",
+      "color": "#f5ad42",
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true,
+      "strikethrough": false,
+      "underline": false,
+    },
+  ],
   "css.validate": false,
   "editor.accessibilitySupport": "off",
   "editor.codeActionsOnSave": {
@@ -24,9 +99,9 @@
   "prettier.requireConfig": true,
   "stylelint.enable": true,
   "terminal.integrated.fontFamily": "'Inconsolata', monospace",
-  "workbench.colorTheme": "Material Theme",
+  "workbench.colorTheme": "Matchalk",
   "workbench.enableExperiments": false,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "file-icons",
   "workbench.view.alwaysShowHeaderActions": true,
   "editor.parameterHints.enabled": false,
   "html.format.endWithNewline": true,
